@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            background: url('https://media.istockphoto.com/id/1324413691/tr/foto%C4%9Fraf/beautiful-sky-with-white-clouds.jpg?s=612x612&w=0&k=20&c=_s2iAKhQQDM6BJrzICXR5Oq3GJdPzC62lTKi1iN0O8I=') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#pages">Pages</a>
+            <a href="#arts">Arts</a>
+            <a href="#past">Past</a>
+            <a href="#soje">Soje</a>
+        </nav>
+        <h1>farahlar <img src="https://p2.hiclipart.com/preview/868/153/279/drawing-3d-computer-graphics-3d-modeling-cartoon-animation-digital-art-model-sheet-character-png-clipart-thumbnail.jpg" alt="logo" style="height: 50px; vertical-align: middle;"></h1>
+    </header>
+    <main>
+        <h2>farahlar world</h2>
+        <p>Welcome to farahlar's world! This is a simple HTML page.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Farahlar's World</p>
+    </footer>
+</body>
+</html>
